@@ -1,0 +1,13 @@
+Build.PL
+Changes
+MANIFEST
+Makefile.PL
+README
+lib/FormValidator/Simple/Plugin/Number/Phone/US.pm
+t/00.load.t
+t/01.compile.t
+t/02.number_phone_us.t
+t/perlcritic.t
+t/perlcriticrc
+t/pod.t
+META.yml

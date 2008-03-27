@@ -1,0 +1,25 @@
+---
+name: FormValidator-Simple-Plugin-Number-Phone-US
+version: v0.0.1
+author:
+  - 'Benjamin Brodfuehrer <bcmb@wraithsys.net>'
+abstract: United States phone number validation
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Test::More: 0
+  version: 0
+provides:
+  FormValidator::Simple::Plugin::Number::Phone::US:
+    file: lib/FormValidator/Simple/Plugin/Number/Phone/US.pm
+    version: !perl/version
+      qv: 1
+      version:
+        - 0
+        - 0
+        - 1
+generated_by: Module::Build version 0.2805
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
