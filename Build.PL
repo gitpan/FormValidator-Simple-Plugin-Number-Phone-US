@@ -8,8 +8,9 @@ my $builder = Module::Build->new(
     dist_author         => 'Benjamin Brodfuehrer <bcmb@wraithsys.net>',
     dist_version_from   => 'lib/FormValidator/Simple/Plugin/Number/Phone/US.pm',
     requires => {
-        'Test::More' => 0,
-        'version'    => 0,
+        'Test::More'        => 0,
+        'version'           => 0,
+        'Number::Phone::US' => 1.3,
     },
     add_to_cleanup      => [ 'FormValidator-Simple-Plugin-Number-Phone-US-*' ],
 );
